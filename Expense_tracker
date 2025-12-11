@@ -1,0 +1,40 @@
+# Expense Analytics with Random Forest
+
+This project builds a machine learning model to analyze company expenses and predict the **Payment Status** of invoices using a Random Forest classifier. The dataset contains around **60,000 rows** and **27 columns**, including financial, vendor, and budgeting information.
+
+## Dataset
+
+Each row represents a single expense or invoice record. Key columns:
+
+- Department  
+- Expense Category  
+- Sub-Category  
+- Vendor Name  
+- Vendor Type  
+- Invoice Amount  
+- Payment Status *(target for classification)*  
+- Payment Date  
+- Invoice Date  
+- Cost Center  
+- Project/Initiative ID  
+- Approval Level  
+- Currency  
+- Tax Amount  
+- Recurring Expense Flag  
+- Payment Method  
+- Contract Duration  
+- Cost Variance  
+- Seasonal/Quarter Tag  
+- Expense Description  
+- cost_category  
+- expense_frequency  
+- historical_avg_spend_dept  
+- budget_allocated  
+- budget_remaining  
+- Total Expenses  
+- Total Revenue  
+
+> If you want to predict a different target (for example, `cost_category` or `Total Expenses`), update the `target_col` variable in the code.
+
+## Project Structure
+
